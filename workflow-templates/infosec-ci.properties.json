@@ -1,0 +1,6 @@
+{
+  "name": "Infosec CI Security Checks",
+  "description": "Runs a standard suite of security checks on pull requests. Managed by the Infosec team.",
+  "iconName": "octicon shield-check",
+  "categories": ["Continuous integration"]
+}

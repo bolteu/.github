@@ -1,0 +1,8 @@
+name: Infosec CI Security Checks
+
+on: pull_request
+
+jobs:
+  security-orchestrator:
+    uses: bolteu/security-workflows/.github/workflows/security-orchestrator.yml@main
+    secrets: inherit
